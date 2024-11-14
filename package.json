@@ -1,0 +1,27 @@
+{
+  "name": "project_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KerenBermeo/project_node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "KerenBermeo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KerenBermeo/project_node/issues"
+  },
+  "homepage": "https://github.com/KerenBermeo/project_node#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
