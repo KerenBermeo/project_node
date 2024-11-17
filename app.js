@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 // Importar conexión a la base de datos
-const db = require('./modelos/db'); // Ajusta la ruta según sea necesario
+const db = require('./src/models/db'); // Ajusta la ruta según sea necesario
 
 // Probar la conexión a la base de datos
 db.connect((err) => {
