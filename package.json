@@ -1,5 +1,5 @@
 {
-  "name": "project_node",
+  "name": "app_estudio",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KerenBermeo/project_node.git"
+    "url": "git+https://github.com/KerenBermeo/app_estudio.git"
   },
   "keywords": [
     "nodejs",
@@ -18,13 +18,13 @@
   "author": "KerenBermeo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KerenBermeo/project_node/issues"
+    "url": "https://github.com/KerenBermeo/app_estudio/issues"
   },
-  "homepage": "https://github.com/KerenBermeo/project_node#readme",
+  "homepage": "https://github.com/KerenBermeo/app_estudio#readme",
   "dependencies": {
+    "app_estudio": "file:",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "mysql2": "^3.11.4",
-    "project_node": "file:"
+    "mysql2": "^3.11.4"
   }
 }
